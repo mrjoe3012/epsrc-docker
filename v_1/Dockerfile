@@ -1,5 +1,5 @@
 FROM nvidia/cuda:12.2.0-devel-ubuntu22.04
-COPY install_ros2.sh /
+COPY ../install_ros2.sh /
 RUN \
   export DEBIAN_FRONTEND=noninteractive; \
   apt update; \
